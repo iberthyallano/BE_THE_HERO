@@ -1,0 +1,25 @@
+Mátodos HTTP:
+
+Get: Buscar/listar uma informação no back-end
+Post: Criar uma informação no back-end
+Put: Altera uma informação no back-end
+Delete: Deleta uma informação no back-end
+
+=================================================
+Tipos de parâmetros:
+
+Query Parmams: Parâmetros nomeados e enviados na rota após "?" (filtros, paginação)
+Route Parmams: Parâmetros utilizados para identificar recursos
+Request Body: Corpo da requisição, utilizado para alterar ou criar recursos
+
+=================================================
+Banco de dados:
+
+SQL: MySQL, SQLite, PostgreSQL, Oracle, Microsoft SQL Server
+NoSQL: MongoDB, CouchDB, Fibase, etc.
+
+==================================================
+Formas de usar um BD:
+
+Dirver: SELECT * FROM users
+Query Builder: table('users').select('*').where()
